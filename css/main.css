@@ -10,15 +10,24 @@ html {
   box-sizing: inherit;
 }
 
+h1 {
+  font-weight: bold;
+}
+
 body {
   display: inline-block;
 }
 
 p {
+  display: inline-block;
   max-width: 25em;
   font-weight: bold;
 }
 
 nav {
+  display: inline-block;
   border-style: solid;
+  border-radius: 7px;
+  padding: .5em;
+
 }
