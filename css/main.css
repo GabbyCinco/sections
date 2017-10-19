@@ -12,7 +12,7 @@ html {
 
 body {
   display: inline-block;
-  margin: 6em 1.45em;
+  margin: 3em 1.45em;
 }
 
 img {
@@ -23,6 +23,7 @@ img {
 h1 {
   font-weight: bold;
   text-align: left;
+  font-size: 1.5rem;
 }
 
 p {
@@ -30,6 +31,10 @@ p {
   max-width: 18em;
   font-weight: bold;
   color: #333;
+}
+
+nav {
+  margin-top: 18px
 }
 
 a {
