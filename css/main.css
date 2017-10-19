@@ -22,6 +22,7 @@ p {
   display: inline-block;
   max-width: 18em;
   font-weight: bold;
+  color: #333;
 }
 nav {
   border-style: solid;
@@ -32,4 +33,6 @@ nav {
 a {
   list-style-type: none;
   text-decoration: none;
+  color: #333;
+  padding: .3em .3em;
 }
