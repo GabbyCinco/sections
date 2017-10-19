@@ -10,12 +10,14 @@ html {
   box-sizing: inherit;
 }
 
-h1 {
-  font-weight: bold;
-}
-
 body {
   display: inline-block;
+  margin: 6em 1.5em;
+}
+
+h1 {
+  font-weight: bold;
+  text-align: left;
 }
 
 p {
@@ -35,4 +37,5 @@ a {
   text-decoration: none;
   color: #333;
   padding: .3em .3em;
+  text-align: left;
 }
