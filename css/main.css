@@ -4,6 +4,7 @@ html {
   background-color: #eee9de;
   color: #000;
   box-sizing: border-box;
+  vertical-align: middle;
 }
 
 *, *::before, *::after {
@@ -19,10 +20,11 @@ img {
   width: 100%;
   max-width: 23em;
   text-align: center;
-  display: inline;
+  display: inline-block
 }
 
 h2 {
+  display: inline-block;
   font-weight: bold;
   text-align: left;
   font-size: 1.5rem;
@@ -44,7 +46,7 @@ p {
   text-decoration: none;
   font-weight: bold;
   color: #333;
-  padding: .6em;
+  padding: .7em;
   text-align: left;
   border: 3px solid #333;
   border-radius: 7px;
