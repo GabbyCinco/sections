@@ -13,3 +13,12 @@ html {
 body {
   display: inline-block;
 }
+
+p {
+  max-width: 25em;
+  font-weight: bold;
+}
+
+nav {
+  border-style: solid;
+}
