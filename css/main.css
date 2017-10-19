@@ -17,15 +17,17 @@ body {
 
 img {
   width: 100%;
-  max-width:23em;
+  max-width: 23em;
   text-align: center;
-  display: inline-block;
+  display: inline;
 }
 
-h1 {
+h2 {
   font-weight: bold;
   text-align: left;
   font-size: 1.5rem;
+  margin-top: 25px;
+  margin-bottom: 9px;
 }
 
 p {
@@ -33,24 +35,22 @@ p {
   max-width: 23em;
   font-weight: bold;
   color: #333;
+  margin-bottom: 32px;
 }
 
-nav {
-  margin-top: 18px
-}
-
-a {
+.btn {
+  display: inline-block;
   list-style-type: none;
   text-decoration: none;
   font-weight: bold;
   color: #333;
-  padding: .6em .6em;
+  padding: .6em;
   text-align: left;
   border: 3px solid #333;
   border-radius: 7px;
 }
 
-a:hover {
+.btn:hover {
   color: #fff;
   background-color: #666;
   border: 3px solid #666;
