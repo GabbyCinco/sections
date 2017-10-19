@@ -2,7 +2,7 @@ html {
   font-family: 'Lato', sans-serif;
   line-height: 1.5;
   background-color: #eee9de;
-  color: #333;
+  color: #000;
   box-sizing: border-box;
 }
 
@@ -20,14 +20,16 @@ body {
 
 p {
   display: inline-block;
-  max-width: 25em;
+  max-width: 18em;
   font-weight: bold;
 }
-
 nav {
-  display: inline-block;
   border-style: solid;
   border-radius: 7px;
   padding: .5em;
+}
 
+a {
+  list-style-type: none;
+  text-decoration: none;
 }
