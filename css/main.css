@@ -1,5 +1,5 @@
 html {
-  font-family: 'Lato', sans-serif;
+  font-family: Lato, sans-serif;
   line-height: 1.5;
   background-color: #eee9de;
   color: #000;
@@ -12,12 +12,14 @@ html {
 
 body {
   display: inline-block;
-  margin: 3em 1.45em;
+  margin: 3em 1em;
 }
 
 img {
-  width: 17em;
+  width: 100%;
+  max-width:23em;
   text-align: center;
+  display: inline-block;
 }
 
 h1 {
@@ -28,7 +30,8 @@ h1 {
 
 p {
   display: inline-block;
-  max-width: 18em;
+  max-width: 25em;
+  min-width: 18em;
   font-weight: bold;
   color: #333;
 }
@@ -44,7 +47,7 @@ a {
   color: #333;
   padding: .5em .5em;
   text-align: left;
-  border: 3px solid #000;
+  border: 3px solid #333;
   border-radius: 7px;
 }
 
