@@ -12,7 +12,12 @@ html {
 
 body {
   display: inline-block;
-  margin: 6em 1.5em;
+  margin: 6em 1.45em;
+}
+
+img {
+  width: 17em;
+  text-align: center;
 }
 
 h1 {
@@ -26,16 +31,20 @@ p {
   font-weight: bold;
   color: #333;
 }
-nav {
-  border-style: solid;
-  border-radius: 7px;
-  padding: .5em;
-}
 
 a {
   list-style-type: none;
   text-decoration: none;
+  font-weight: bold;
   color: #333;
-  padding: .3em .3em;
+  padding: .5em .5em;
   text-align: left;
+  border: 3px solid #000;
+  border-radius: 7px;
+}
+
+a:hover {
+  color: #fff;
+  background-color: #666;
+  border: 3px solid #666;
 }
