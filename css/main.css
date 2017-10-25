@@ -11,9 +11,9 @@ html {
   box-sizing: inherit;
 }
 
-body {
+section {
   display: inline-block;
-  margin: 3em auto 1em;
+  margin: 3em .5em;
 }
 
 img {
@@ -31,6 +31,7 @@ img {
   text-align: left;
   vertical-align: middle;
   display: inline-block;
+  max-width: 23em;
 }
 
 h2 {
@@ -56,13 +57,13 @@ p {
   text-decoration: none;
   color: #333;
   font-weight: bold;
-  padding: .5em .7em;
-  border-style: solid;
+  padding: .7em;
+  border-style: 3px solid #333;
   border-radius: 7px;
 }
 
 a:hover {
   color: #fff;
   background-color: #666;
-  border: 3px solid #666;
+  border-style: 3px solid #666;
 }
