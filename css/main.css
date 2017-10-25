@@ -11,16 +11,14 @@ html {
   box-sizing: inherit;
 }
 
-section {
-  display: inline-block;
-  margin: 3em .5em;
-}
-
 img {
   width: 100%;
   max-width: 23em;
   text-align: center;
   display: block;
+  margin: 0;
+  padding: 1.7em .5em;
+  padding-bottom: 1.3em;
 }
 
 .pyramid {
@@ -32,6 +30,8 @@ img {
   vertical-align: middle;
   display: inline-block;
   max-width: 23em;
+  margin: 0;
+  padding: .5em;
 }
 
 h2 {
@@ -39,8 +39,8 @@ h2 {
   font-weight: bold;
   text-align: left;
   font-size: 1.5rem;
-  margin-top: 25px;
-  margin-bottom: 9px;
+  margin: 0;
+  padding-bottom: .2em;
 }
 
 p {
@@ -48,7 +48,6 @@ p {
   max-width: 23em;
   font-weight: bold;
   color: #333;
-  margin-bottom: 32px;
   text-align: left;
 }
 
@@ -58,12 +57,12 @@ p {
   color: #333;
   font-weight: bold;
   padding: .7em;
-  border-style: 3px solid #333;
+  border-style: solid;
   border-radius: 7px;
 }
 
 a:hover {
   color: #fff;
   background-color: #666;
-  border-style: 3px solid #666;
+  border-color: #666;
 }
