@@ -13,11 +13,7 @@ html {
 
 body {
   display: inline-block;
-  margin: 3em 1em;
-}
-
-div {
-  vertical-align: middle;
+  margin: 3em auto 1em;
 }
 
 img {
@@ -28,6 +24,12 @@ img {
 }
 
 .pyramid {
+  display: inline-block;
+}
+
+.info {
+  text-align: left;
+  vertical-align: middle;
   display: inline-block;
 }
 
@@ -51,22 +53,16 @@ p {
 
 .btn {
   display: inline-block;
-  list-style-type: none;
   text-decoration: none;
-  font-weight: bold;
   color: #333;
-  padding: .7em;
-  text-align: left;
-  border: 3px solid #333;
+  font-weight: bold;
+  padding: .5em .7em;
+  border-style: solid;
   border-radius: 7px;
 }
 
-.btn:hover {
+a:hover {
   color: #fff;
   background-color: #666;
   border: 3px solid #666;
-}
-
-.info {
-  display: inline-block;
 }
