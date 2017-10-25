@@ -5,10 +5,15 @@ html {
   color: #000;
   box-sizing: border-box;
   text-align: center;
+  vertical-align: middle;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+section {
+  padding-bottom: 3em;
 }
 
 img {
@@ -17,7 +22,7 @@ img {
   text-align: center;
   display: block;
   margin: 0;
-  padding: 1.7em .5em;
+  padding: 2.4em .5em;
   padding-bottom: 1.3em;
 }
 
@@ -27,7 +32,6 @@ img {
 
 .info {
   text-align: left;
-  vertical-align: middle;
   display: inline-block;
   max-width: 23em;
   margin: 0;
@@ -45,10 +49,12 @@ h2 {
 
 p {
   display: inline-block;
-  max-width: 23em;
+  max-width: 24em;
   font-weight: bold;
   color: #333;
   text-align: left;
+  margin: 0;
+  padding: 1.5em 0;
 }
 
 .btn {
